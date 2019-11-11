@@ -16,6 +16,7 @@ public class _00_TestSpecialString {
 	
 	//2. Fill in the funkifyText method in the BackwardsString class
 	//   to make the JUnitTest pass.
+	
 	@Test
 	public void testBackwardsString() {
 		SpecialString bs = new BackwardsString("This is a test");
@@ -38,6 +39,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString sp = new CustomString("This is a test");
+		System.out.println(sp);
+		assertEquals("tHIs Is A TEsT", sp.toString());
 	}
 }
