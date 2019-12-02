@@ -4,6 +4,7 @@ public abstract class City {
 	protected int population;
 	protected double growthRate;
 	
+	
 	public City(int population, double growthRate) {
 		this.population = population;
 		this.growthRate = growthRate;

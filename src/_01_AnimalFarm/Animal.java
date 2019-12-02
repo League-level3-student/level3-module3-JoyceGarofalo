@@ -2,15 +2,11 @@ package _01_AnimalFarm;
 
 import javax.swing.JOptionPane;
 
-public class Animal {
+public abstract class Animal extends Farm{
 	
-	public void makeNoise() {
-		
-	}
+	public abstract void makeNoise();
 	
-	public void nameAnimal() {
-		JOptionPane.showInputDialog("What is this animal?");
-	}
+	public abstract void nameAnimal();
 }
 
 
